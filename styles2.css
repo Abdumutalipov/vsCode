@@ -1,0 +1,76 @@
+body{
+  padding: 0;
+  margin: 0;
+  
+}
+.container{
+  display: flex;
+  position: relative;
+  /* background-color: #fbb12f; */
+  height: 200px;
+  width: 200px;
+  
+  justify-content: center;
+  align-items: center;
+ margin-left: 140px;
+  
+
+}
+.diamond{
+  position: absolute;
+
+height: 50px;
+width: 50px;
+transform: rotate(45deg);
+-webkit-transform: rotate(45deg);
+ opacity: .9;
+  
+
+
+}
+.num1{
+background: linear-gradient(-45deg, #CF2C1D 50%, #EE7E56 50%);
+right: 29px;
+
+
+}
+.num2{
+  background: tomato;
+  bottom: 40px;
+  right: 67px;
+  background: linear-gradient(-45deg, #FEB781 50%, #E51C04 50%);
+}
+.num3{
+ background: linear-gradient(-45deg, #991723 50% ,#d83677 50% ) ;
+
+ top: 63px;
+ left: 40px;
+ 
+}
+.num4{
+  background: linear-gradient(-45deg, #172119 50%, #255839 50%)  ;
+
+  left: 70px;
+  bottom: 70px;
+  width: 30px;
+  height: 30px;
+}
+.num5{
+  background: linear-gradient(-45deg, #246239 50%, #6FBF97 50%);
+  bottom: 60px;
+  left: 100px;
+  
+}
+.num6{
+ background: linear-gradient(-45deg, #6FBF97 50%, #246239 50%);
+ top: 53px;
+ right: 68px;
+
+}
+.img6{
+  font-size: 10px;
+  background: linear-gradient(-45deg, white 50%, white 50%);
+}
+.num7{
+  background: linear-gradient(-45deg, #0592B0 50%, #46DEE3 50% );
+}

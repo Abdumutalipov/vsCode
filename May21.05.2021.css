@@ -1,0 +1,17 @@
+.main{
+  position: relative;
+  margin: 90px;
+}
+.num{
+  position: absolute;
+  /* display: flex; */
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+  transform: rotate(45deg);
+}
